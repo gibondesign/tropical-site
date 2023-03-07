@@ -223,15 +223,6 @@ body {
   background-color: #eee;
 }
 
-@-webkit-keyframes navItemsAnimation {
-  from {
-    transform: translateX(200%);
-  }
-  to {
-    tranform: translate(0);
-  }
-}
-
 @keyframes navItemsAnimation {
   from {
     transform: translateX(200%);
@@ -241,8 +232,7 @@ body {
   }
 }
 .nav-items-animation {
-  -webkit-animation: navItemsAnimation 1s both;
-          animation: navItemsAnimation 1s both;
+  animation: navItemsAnimation 1s both;
 }
 
 .dreams__box {
